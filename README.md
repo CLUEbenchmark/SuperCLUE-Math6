@@ -18,8 +18,11 @@ SuperCLUE-Math6不仅延续了GSM8K的高质量和多样性，更在难度和应
 它的应用将加速人工智能在教育、金融分析和技术领域等的本土化进程，同时助力模型更贴近人类的思维方式，为实现真正的通用人工智能奠定坚实的基础。
 期待SuperCLUE-Math能激励更多的创新，推动人工智能技术在各行各业的广泛应用，从而为社会带来更深远的影响。
 
-官网地址：https://www.CLUEbenchmarks.com/superclue_math6.html
-申请地址 ：https://wj.qq.com/s2/11984326/86bb/
+官网地址：<a href='https://www.CLUEbenchmarks.com/superclue_math6.html'>https://www.CLUEbenchmarks.com/superclue_math6.html</a>
+
+公众号推文地址：<a href="https://mp.weixin.qq.com/s/jM2rgWE_-2TC7c49e22jAw">https://mp.weixin.qq.com/s/jM2rgWE_-2TC7c49e22jAw</a>
+
+申请地址 ：<a href='https://wj.qq.com/s2/11984326/86bb/'>https://wj.qq.com/s2/11984326/86bb/</a>
 
 ## SuperCLUE-Math6
 
