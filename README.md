@@ -213,5 +213,18 @@ SuperCLUE-Math6不仅延续了GSM8K的高质量和多样性，更在难度和应
 观察各模型之间的性能差异，可能反映了它们在架构、训练数据集、优化策略等方面的不同。例如，GPT系列模型可能因为更大的模型规模、更广泛的训练数据或更高级的优化技术而表现更佳。
 对这些差异的深入研究有助于理解和改进现有模型的性能。
 
+## 示例
+#### 示例1
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Math6/blob/main/resources/img/example0.png"  width="86%" height="86%"></img>
+
+#### 示例2
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Math6/blob/main/resources/img/example1.png"  width="86%" height="86%"></img>
+
+#### 示例3
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Math6/blob/main/resources/img/example2.png"  width="86%" height="86%"></img>
+
+
+
+
 
 
