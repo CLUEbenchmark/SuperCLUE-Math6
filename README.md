@@ -215,13 +215,13 @@ SuperCLUE-Math6不仅延续了GSM8K的高质量和多样性，更在难度和应
 
 ## 示例
 #### 示例1
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Math6/blob/main/resources/img/example0.png"  width="86%" height="86%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Math6/blob/main/resources/img/example2.png"  width="86%" height="86%"></img>
 
 #### 示例2
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Math6/blob/main/resources/img/example1.png"  width="86%" height="86%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Math6/blob/main/resources/img/example0.png"  width="86%" height="86%"></img>
 
 #### 示例3
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Math6/blob/main/resources/img/example2.png"  width="86%" height="86%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Math6/blob/main/resources/img/example1.png"  width="86%" height="86%"></img>
 
 
 
