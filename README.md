@@ -227,8 +227,10 @@ SuperCLUE-Math6不仅延续了GSM8K的高质量和多样性，更在难度和应
 
 ## 讨论交流与使用
 
-<p float="left">   
+<p float="left"> 
+  微信群：  
   <img src="https://github.com/CLUEbenchmark/SuperCLUE-Math6/blob/main/resources/img/scmath_group.jpeg"  width="30%" height="30%"></img>
+  联系人：
   <img src="https://github.com/CLUEbenchmark/SuperCLUE-Math6/blob/main/resources/img/brightmart_s.jpeg"  width="30%" height="30%"></img>
 </p> 
 
