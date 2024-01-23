@@ -150,12 +150,12 @@ def score(path):
     overall['全面准确率']=unify_score(win_count_turns_all,count_turns_all)
     num_example_valid=all_count_turns_1 + all_count_turns_2 - unfinished_count_turns_1 - unfinished_count_turns_2 # 获取到的回复数量
     overall['平均准确率']=unify_score(win_count_turns_1+win_count_turns_2,num_example_valid)
-    overall["准确率综合得分"] = 0.5*overall['全面准确率'] + 0.5*overall['平均准确率']
+    overall["准确率综合得分"] = round(0.5*overall['全面准确率'] + 0.5*overall['平均准确率'],2)
 
     overall["推理步数加权得分"] = unify_score(sum([int(step_num)*score_for_reasoning_step[step_num] for step_num in score_for_reasoning_step]), sum(range(min_level, max_level+1)))
 
     # 综合得分
-    overall["综合得分"] = 0.5 *overall["准确率综合得分"]+0.5*overall["推理步数加权得分"]
+    overall["综合得分"] = round(0.5 *overall["准确率综合得分"]+0.5*overall["推理步数加权得分"],2)
 
     overall["指令遵循率（答案）"]=float(processed_count_m1)/float(processed_count_m1+processed_count_m2)
     # 其他信息
