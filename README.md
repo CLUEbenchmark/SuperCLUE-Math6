@@ -76,9 +76,10 @@ SuperCLUE-Math6不仅延续了GSM8K的高质量和多样性，更在难度和应
 
 #### 3.测评代码及模型生成的示例
 
-测评代码：scripts/evaluate.py
+测评代码：<a href="https://github.com/CLUEbenchmark/SuperCLUE-Math6/blob/main/scripts/evaluate.py">scripts/evaluate.py</a>
 
-模型预测的示例文件：scripts/sample_answer.json
+模型预测的示例文件：<a href="https://github.com/CLUEbenchmark/SuperCLUE-Math6/blob/main/scripts/sample_answer.json">scripts/sample_answer.json</a>
+
 
  运行方式：
  
