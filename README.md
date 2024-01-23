@@ -38,7 +38,7 @@ SuperCLUE-Math6不仅延续了GSM8K的高质量和多样性，更在难度和应
 
 ### 使用及计分代码
 
-####  字段说明
+####  1.数据的字段说明
     id: 编号,
     question:问题,
     follow_up_question:追问,
@@ -49,7 +49,7 @@ SuperCLUE-Math6不仅延续了GSM8K的高质量和多样性，更在难度和应
     answer:问题的答案,
     answer_followup:追问的答案
 
-#### 使用的Prompt及数据的构造
+#### 2.使用的Prompt及数据的构造
 
 ##### 第一轮数据构造
     # line:每一行json
@@ -74,7 +74,17 @@ SuperCLUE-Math6不仅延续了GSM8K的高质量和多样性，更在难度和应
             {"role": "user", "content": follow_up_question},
     ]
 
+#### 3.测评代码及模型生成的示例
 
+测评代码：scripts/evaluate.py
+
+模型预测的示例文件：scripts/sample_answer.json
+
+ 运行方式：
+ 
+       cd scripts 
+       python3 evaluate.py
+ 
 ## SuperCLUE-Math6
 
 ### SC-Math6与GSM8K区别联系
