@@ -1,4 +1,4 @@
-## SuperCLUE-Math6：新一代中文数学推理数据集的探索之旅
+## SuperCLUE-Math6：新一代中文原生多轮多步数学推理数据集的探索之旅
 
 技术报告：<a href='https://arxiv.org/abs/2401.11819'>SC-Math6: Graded Multi-Step Math Reasoning Benchmark for LLMs in Chinese</a>
 
@@ -28,7 +28,13 @@ SuperCLUE-Math6不仅延续了GSM8K的高质量和多样性，更在难度和应
 
 公众号推文地址：<a href="https://mp.weixin.qq.com/s/jM2rgWE_-2TC7c49e22jAw">https://mp.weixin.qq.com/s/jM2rgWE_-2TC7c49e22jAw</a>
 
-申请地址 ：<a href='https://wj.qq.com/s2/11984326/86bb/'>https://wj.qq.com/s2/11984326/86bb/</a>
+
+### SuperCLUE-Math6测试集正式申请方式
+
+请使用单位邮箱，将数据研究目的、计划，研究机构、申请者介绍和联系方式（手机或微信），发送到邮箱，并承诺不向第三方提供。
+邮箱: contact@superclue.ai，标题是：SuperCLUE-Math6测试集申请
+
+收到申请邮件后，会通过邮件回复反馈测试集，谢谢。
 
 ## SuperCLUE-Math6
 
