@@ -29,12 +29,51 @@ SuperCLUE-Math6不仅延续了GSM8K的高质量和多样性，更在难度和应
 公众号推文地址：<a href="https://mp.weixin.qq.com/s/jM2rgWE_-2TC7c49e22jAw">https://mp.weixin.qq.com/s/jM2rgWE_-2TC7c49e22jAw</a>
 
 
-### SuperCLUE-Math6测试集正式申请方式
+### 申请方式
 
 请使用单位邮箱，将数据研究目的、计划，研究机构、申请者介绍和联系方式（手机或微信），发送到邮箱，并承诺不向第三方提供。
-邮箱: contact@superclue.ai，标题是：SuperCLUE-Math6测试集申请
+邮箱: contact@superclue.ai，标题是：SuperCLUE-Math6申请
 
 收到申请邮件后，会通过邮件回复反馈测试集，谢谢。
+
+### 使用及计分代码
+
+####  字段说明
+    id: 编号,
+    question:问题,
+    follow_up_question:追问,
+    language solution:问题的自然语言解决方案,
+    language solution_followup:追问的自然语言解决方案,
+    reasoning_step_ref:问题的推理步数，供参考,
+    reasoning_step_followup_ref:追问的推理步数，供参考,
+    answer:问题的答案,
+    answer_followup:追问的答案
+
+#### 使用的Prompt及数据的构造
+
+##### 第一轮数据构造
+    # line:每一行json
+    question=line['question']
+    question=f'''{question}
+    ------------------------
+    注意：回答格式如下：“解题过程+'\n\n'+最终答案:【XXX】”。XXX，必须为非负整数，如35；解题过程中如涉及小数可保留两位数，最终结果如有小数四舍五入为非负整数。'''
+    
+    messages=[{"role": "user", "content": question}]
+
+
+##### 第二轮数据构造 
+    # line:每一行json
+    follow_up_question=line['follow_up_question']
+    follow_up_question=f'''{follow_up_question}
+    ------------------------
+    注意：回答格式如下：“解题过程+'\n\n'+最终答案:【XXX】”。XXX，必须为非负整数，如35；解题过程中如涉及小数可保留两位数，最终结果如有小数四舍五入为非负整数。'''
+    
+    messages=[
+            {"role": "user", "content": question},
+            {"role": "assistant", "content": question_response},
+            {"role": "user", "content": follow_up_question},
+    ]
+
 
 ## SuperCLUE-Math6
 
@@ -84,15 +123,9 @@ SuperCLUE-Math6不仅延续了GSM8K的高质量和多样性，更在难度和应
 - 对于新模型，使用相同的方法计算其综合得分。
 - 将其综合得分与现有模型的综合得分进行比较，按照相同的等级划分原则，确定其等级。
 
-### 评估标准及Prompt
+### 评估标准
 采取完全匹配的方式，计算准确率。
 其中，答案只能是非负整数。
-
-使用的Prompt:
-<这里问题的内容>
-
----
-注意：回答格式如下：“解题过程+'\n\n'+最终答案:【XXX】”。XXX，必须为非负整数，如35；解题过程中如涉及小数可保留两位数，最终结果如有小数四舍五入为非负整数。
 
 ###  模型列表及使用方式
 |     模型名称      |   机构   | 使用方式 |
