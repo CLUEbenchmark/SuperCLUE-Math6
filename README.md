@@ -112,6 +112,7 @@ SuperCLUE-Math6不仅延续了GSM8K的高质量和多样性，更在难度和应
 ##### 2. 计算每个模型的推理步数得分
 - 由于更长的推理步数更难，我们将为每个推理步数赋予不同的权重。步数1的权重为1，步数5的权重为5。
 - 对每个模型，计算加权平均得分：
+
 <img src="https://github.com/CLUEbenchmark/SuperCLUE-Math6/blob/main/resources/img/weight_sum_reasoning.png"  width="30%" height="30%"></img>
 
 
