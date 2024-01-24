@@ -1,3 +1,5 @@
+# 这是一个用于评估的代码
+
 import jsonlines
 import regex as re
 
@@ -169,7 +171,7 @@ def score(path):
     return overall
 
 if __name__=="__main__":
-    file_name = "sc_math6_sample_answer.json"
+    file_name = "sample_answer.json"
     result_dict=score(file_name)
     final_score=result_dict["综合得分"]
     reasong_step_scores = result_dict['推理步数的成绩分布']
