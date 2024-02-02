@@ -1,6 +1,6 @@
 ## SuperCLUE-Math6：新一代中文原生多轮多步数学推理数据集的探索之旅
 
-技术报告：<a href='https://arxiv.org/abs/2401.11819'>SC-Math6: Graded Multi-Step Math Reasoning Benchmark for LLMs in Chinese</a>
+技术报告（定稿并修订完成）：<a href='https://github.com/CLUEbenchmark/SuperCLUE-Math6/blob/main/SuperCLUE_Math6_v2.pdf'>SC-Math6: Graded Multi-Step Math Reasoning Benchmark for LLMs in Chinese</a>
 
 在人工智能领域，我们正见证着大语言模型如ChatGPT和GPT-4的蓬勃发展，它们是我们走向通用人工智能梦想的关键一步。中文大模型的推出，更是开启了人
 工智能在各行各业的全新应用时代；像GSM8K数学推理任务，由于可以考察多步逻辑推理推能力、应用数学和实现知识的能力、需要自然语言理解和解决方案、
